@@ -12,6 +12,12 @@ A simple moon phase tracker that shows current and upcoming lunar phases.
 
 Just open `index.html` in your browser. That's it!
 
+## 📸 Screenshots
+
+
+![one](Screenshots/one.png)
+![two](Screenshots/two.png)
+
 ## Features
 
 - Dark space theme
