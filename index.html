@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna Tracker - Moon Phases</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌙 Luna Tracker</h1>
+        <p class="subtitle">Because the moon is way cooler than the sun</p>
+        
+        <div class="moon-display">
+            <div class="today-label">Current Lunar Phase</div>
+            <div class="moon-emoji" id="currentMoon" onclick="moonClick()"></div>
+            <div class="phase-title" id="currentPhase"></div>
+            <div class="date-info" id="currentDate"></div>
+            <div class="illumination-info" id="currentIllumination"></div>
+        </div>
+        
+        <div class="controls">
+            <button class="btn" onclick="toggleForecast()">
+                <span id="toggleText">Show Week Ahead</span> 🔮
+            </button>
+        </div>
+        
+        <div class="forecast" id="weekForecast"></div>
+    </div>
+
+    <div class="debug" id="debugInfo"></div>
+
+    <script src="script.js"></script>
+</body>
+</html
